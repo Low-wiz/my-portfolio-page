@@ -1,0 +1,544 @@
+@font-face {
+    font-family: AlverataInformalPE;
+    src: url(./font/Alverata\ Informal\ W01\ Bold.ttf);
+}
+@font-face {
+    font-family: slowface;
+    src: url(./font/PlayfairDisplay-VariableFont_wght\(1\).ttf);
+}
+body{
+    border: none;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #dadada;
+    color: #fff;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+.nav ul li a:hover{
+    color: red;
+    font-size: larger;
+}
+.nav div{
+    margin-right: 40px;
+}
+.nav div nav{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 13px;
+}
+.nav div a{
+    display: inline-block;
+    color: white;
+}
+
+.heading{
+    background-color: #fff;
+    width: auto;
+    height: 100px;
+    text-align: center;
+}
+.heading h1{
+    color: #dadada;
+    /* line-height: 0px; */
+    position: relative;
+    top: 10px;
+}
+.heading span{
+    color: #e46965;
+    position: relative;
+    bottom: 12px;
+}
+.logo nav .fa-youtube:hover{
+    color: red;
+}
+.logo nav .fa-twitter:hover{
+    color: #1DA1F2;
+}
+.logo nav .fa-square-facebook:hover{
+    color: #1877F2;
+}
+.container{
+    background-image: url(./img/headernew2.png);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-left: 50px solid #363636;
+    border-right: 50px solid #363636;
+}
+.contain nav{
+    flex-basis: 500px;
+    padding-top: 3px;
+    border: 1px solid white;
+}
+
+.boogie.one{
+    border-left: none;
+    gap: 10px;
+}
+.boogie.thh{
+    border-right: none;
+}
+.boogie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boogie span{
+    font-size: 25px;
+    font-family: AlverataInformalPE,Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+
+/* section area */
+
+.body-part h1{
+    margin-left: 40px;
+    font-size: 40px;
+    color: #e46965;
+    font-family: slowface,Arial, Helvetica, sans-serif;
+}
+.body-part p{
+    margin-left: 50px;
+    margin-right:50px;
+    line-height: 2px;
+    word-spacing:2px;
+}
+.body-part p a{
+    text-decoration: none;
+}
+.boogie span:hover{
+    font-size: 30px;
+    color: red;
+}
+.portfolio{
+    width: 100%;
+    height: 300px;
+    background-color: #dadada;
+}
+.portfolio h1{
+    margin-left: 40px;
+    position: relative;
+    top: 20px;
+    color: #e46965;
+    font-size: 40px;
+    font-family: slowface,Arial, Helvetica, sans-serif;
+}
+.pt{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.boxes{
+    width: 340px;
+    height: 180px;
+    border: none;
+    display: flex;
+    align-items: flex-end;
+}
+.boxes.aa{
+    background-image: url(./img/special.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boxes.bb{
+    background-image: url(./img/special2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.boxes.cc{
+    background-image: url(./img/special3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.boxes.dd{
+    background-image: url(./img/special4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.label{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(5, 6, 6, 50%);
+    display: flex;
+    justify-content: space-between;
+
+}
+.label .img{
+    margin: 4px;
+    
+}
+.label .img img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.label p{
+    color: white;
+    position: relative;
+    bottom: 15px;
+    font-family: AlverataInformalPE;
+    font-size: small;
+    margin: 2px;
+}
+
+
+/* footerarea */
+
+.buttom{
+    width: 100%;
+    height: 300px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+}
+.line h1{
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    color: #e46965;
+
+}
+.line{
+    margin-left: 50px;
+}
+.letters p{
+    color: #9d9d9d;
+    font-size: smaller;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.letters p.date{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    width: 300px;
+    font-size: 1.5em;
+    background-color: #363636;
+    color: #6d6d6d;
+    border: none;
+}
+.Subcribe{
+    background-color: #e46965;
+    color: #fff;
+    font-family: AlverataInformalPE,Arial, Helvetica, sans-serif;
+}
+.line.last{
+    margin-right: 50px;
+}
+.copyright{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #1d1d1d;
+    color: #6d6d6d;
+    text-align: center;
+}
+.copyright p{
+    font-size: small;
+    margin: 2px;
+}
+@media screen and (min-width: 0px) and (max-width:320px){
+.logo nav a{
+    font-size: 10px;
+}
+    .nav ul li{
+    font-size: 6px;
+}
+.heading{
+    font-size: 12px;
+}
+.boogie img{
+    width: 20px;
+    height: 20px;
+}
+.boogie span:hover{
+    font-size: 12px;
+    color: red;
+}
+.contain span{
+font-size: 9px;
+text-align: center;
+}
+.body-part{
+    font-size: 9px;
+}
+.body-part p{
+    line-height: 1;
+    word-spacing:2px;
+}
+.portfolio {
+    font-size: 10px;
+}
+.portfolio .label p{
+    font-size: 5px;
+    top: 5px;
+}
+.portfolio .label img{
+    width: 15px;
+    height: 15px;
+}
+.boxes{
+    border-right: 1px solid white;
+}
+.buttom{
+    font-size: 5px;
+    display: block;
+    gap: 0;
+}
+.buttom  .line h1{
+    font-size: 10px;
+}
+.buttom .line.last input{
+    width: 100px;
+    margin-top: 4px;
+
+}
+}
+@media screen and (min-width: 321px) and (max-width: 480px){
+.logo nav a{
+    font-size: 10px;
+}
+.nav ul li{
+    font-size: 9px;
+}
+.heading{
+    font-size: 15px;
+}
+.boogie img{
+    width: 25px;
+    height: 25px;
+}
+.boogie span:hover{
+    font-size: 12px;
+    color: red;
+}
+.contain span{
+    font-size: 11px;
+    text-align: center;
+}
+.body-part{
+    font-size: 11px;
+}
+.body-part p{
+    line-height: 1;
+    word-spacing:2px;
+}
+.portfolio {
+    font-size: 15px;
+}
+.portfolio .label p{
+    font-size: 5px;
+    top: 5px;
+}
+.portfolio .label img{
+    width: 15px;
+    height: 15px;
+}
+.boxes{
+    border-right: 1px solid white;
+}
+.buttom{
+    font-size: 8px;
+    display: block;
+    gap: 0;
+}
+.buttom  .line h1{
+    font-size: 13px;
+}
+.buttom .line.last input{
+    width: 100px;
+    margin-top: 4px;
+    
+}
+}
+@media screen and (min-width:481px) and (max-width:568px){
+.logo nav a{
+    font-size: 15px;
+}
+.nav ul li{
+    font-size: 12px;
+}
+.heading{
+    font-size: 15px;
+}
+.boogie img{
+    width: 30px;
+    height: 30px;
+}
+.boogie span:hover{
+    font-size: 15px;
+    color: red;
+}
+.contain span{
+    font-size: 12px;
+    text-align: center;
+}
+.body-part{
+    font-size: 15px;
+}
+.body-part p{
+    line-height: 1;
+    word-spacing:2px;
+}
+.portfolio .label p{
+    font-size: 8px;
+    top: 5px;
+}
+.portfolio .label img{
+    width: 20px;
+    height: 20px;
+}
+.boxes{
+    border-right: 1px solid white;
+}
+.buttom{
+    font-size: 11px;
+    gap: 0;
+}
+.buttom  .line h1{
+    font-size: 20px;
+}
+.buttom .line.last input{
+    width: 100px;
+    margin-top: 4px;
+    
+}
+}
+@media screen and (min-width:569px) and (max-width:772px ){
+.logo nav a{
+    font-size: 20px;
+}
+.nav ul li{
+    font-size: 15px;
+}
+.heading{
+    font-size: 18px;
+}
+.boogie img{
+    width: 40px;
+    height: 40px;
+}
+.boogie span:hover{
+    font-size: 15px;
+    color: red;
+}
+.contain span{
+    font-size: 12px;
+    text-align: center;
+}
+.body-part{
+    font-size: 15px;
+}
+.body-part p{
+    line-height: 1;
+    word-spacing:2px;
+}
+.portfolio .label p{
+    font-size: 8px;
+    top: 5px;
+}
+.portfolio .label img{
+    width: 20px;
+    height: 20px;
+}
+.boxes{
+    border-right: 1px solid white;
+}
+.buttom{
+    font-size: 12px;
+    gap: 0;
+}
+.buttom  .line h1{
+    font-size: 20px;
+}
+.buttom .line.last input{
+    width: 150px;
+    margin-top: 4px;
+        
+}
+}
+@media screen and (min-width: 773px){
+.logo nav a{
+    font-size: 25px;
+}
+.nav ul li{
+    font-size: 20px;
+}
+.heading{
+    font-size: 18px;
+}
+.boogie img{
+    width: 50px;
+    height: 50px;
+}
+.boogie span:hover{
+    font-size: 20px;
+    color: red;
+}
+.contain span{
+    font-size: 15px;
+    text-align: center;
+}
+.body-part{
+    font-size: 15px;
+}
+.body-part p{
+    line-height: 1;
+    word-spacing:2px;
+}
+.portfolio .label p{
+    font-size: 10px;
+    top: 5px;
+}
+.portfolio .label img{
+    width: 30px;
+    height: 30px;
+}
+.boxes{
+    border-right: 1px solid white;
+}
+.buttom{
+    font-size: 15px;
+    gap: 0;
+}
+.buttom  .line h1{
+    font-size: 25px;
+}
+.buttom .line.last input{
+    width: 200px;
+    margin-top: 4px;       
+}
+}
